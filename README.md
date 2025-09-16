@@ -36,3 +36,5 @@ usefull commmands:
 #bandit -c .\pyproject.toml -r . 
 
 #python -m build
+
+#git log --pretty=oneline

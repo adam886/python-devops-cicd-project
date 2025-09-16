@@ -19,10 +19,17 @@ usefull commmands:
 
 
 #python -m venv .venv
+
 #.venv/Scripts/activate
+
 #pip install -e. 
+
 #pip install ".[dev]"
+
 #black --check .  
+
 #black .
+
 #ruff check .
+
 #bandit -c .\pyproject.toml -r . 

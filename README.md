@@ -13,7 +13,12 @@ This repository contains the complete CI/CD implementation for the CI/CD
 - [x] **Build our Python project** - Automated package building
 - [x] **Publish the project to both TestPyPI and PyPI** - Automated package publishing on releases
 
+usefull commmands: 
 #python -m venv .venv
 #.venv/Scripts/activate
 #pip install -e. 
+#pip install ".[dev]"
 #check-urls https://github.com https://google.com --timeout 10 -v
+#black --check .  
+#black .
+#ruff check .

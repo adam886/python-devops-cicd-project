@@ -14,5 +14,22 @@ dependencies = [
   "click>=8.0,<9.0"
 ]
 
+[project.optional-dependencies]
+dev = [
+  "mypy",
+  "bandit",
+  "types-requests",
+  "pytest",
+  "pytest-mock",
+  "ruff",
+  "black"
+]
+
 [project.scripts]
 check-urls = "simple_http_checker.cli:main"
+
+[tool.ruff]
+line-length = 70
+
+[tool.black]
+line-length = 70

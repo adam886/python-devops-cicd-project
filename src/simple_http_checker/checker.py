@@ -34,9 +34,7 @@ def check_urls(
             if response.ok:
                 status = f"{response.status_code} OK"
             else:
-                status = (
-                    f"{response.status_code} {response.reason}"
-                )
+                status = f"{response.status_code} {response.reason}"
         except requests.exceptions.Timeout:
             status = "TIMEOUT"
             logger.warning(f"Request to {url} timed out.")

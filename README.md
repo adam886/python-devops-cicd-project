@@ -34,3 +34,5 @@ usefull commmands:
 #ruff check .
 
 #bandit -c .\pyproject.toml -r . 
+
+#python -m build

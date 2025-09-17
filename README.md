@@ -11,7 +11,6 @@ This repository contains the complete CI/CD implementation for the CI/CD
 - [x] **Add typing (mypy) and security checks (bandit)** - Static analysis and security scanning
 - [x] **Add test automation** - Comprehensive test suite with pytest
 - [x] **Build our Python project** - Automated package building
-- [x] **Publish the project to both TestPyPI and PyPI** - Automated package publishing on releases
 
 
 usefull commmands: 
